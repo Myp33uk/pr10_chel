@@ -43,7 +43,7 @@ namespace pr10_chel
                 mas.Add(rnd.Next(-10, 10));
                 numbersList.Items.Add(mas[i]);
             }
-            foreach (var item in mas)
+            foreach (int item in mas)
             {
                 if (item == 5 || item == -5) numbersCounter++;
             }
